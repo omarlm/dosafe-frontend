@@ -11,12 +11,11 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ selectedLanguage, o
             id="language"
             value={selectedLanguage}
             onChange={(e) => onChangeLanguage(e.target.value)}
-            className="border p-2 rounded text-sm lg:text-base text-eucalyptus-50 bg-transparent"
+            className="w-25 bg-gray-200 border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
         >
-            <option value="en">en</option>
-            <option value="es">es</option>
+            <option value="es">Español</option>
+            <option value="en">English</option>
         </select>
-
     </>
 )
 
